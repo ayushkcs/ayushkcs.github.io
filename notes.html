@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notes | Inverted Truth</title>
+    <meta name="description" content="I'm a Software engineer based in New Delhi, India.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Inverted Truth">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="invertedtruth.com">
+    <meta property="og:image" content="">
+
+    <link rel="icon" href="favicon.png" sizes="any">
+    <link rel="icon" href="favicon.png" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+
+    <style>
+        .badge {
+            display: inline-block;
+            background-color: rgba(114, 207, 14, 0.242);
+            color: #333;
+            padding: 5px 5px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+
+        .footer {
+            text-align: center; 
+            padding: 0px 0; /* Add some padding for spacing */
+            background-color: #FFFFFF; /* Example background color */
+            color: #333; /* Example text color */
+            font-size: 14px; /* Example font size */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="simple-container">
+
+        <div class="header">
+            <p class="back">
+                <a href="index.html"><img src="favicon.png" style="width: 80px;" id="profile"></a>
+            </p>
+            <p class="subpage fade-in">Notes</p>
+            <br>
+
+            <div class="row personal-elem fade-in">
+                <p>I enjoy taking notes on a wide range of topics that spark my curiosity. This page serves as an archive of my research notes, compiled from various sources.</p>
+
+                <span class="badge">Categories</span>
+                
+                <ul>
+
+                <li><a href="#computer">Computer Science</a></li>
+
+                </ul>
+
+                <!--Computer Science-->
+
+                <hr>
+
+                <p><strong><a name="computer"></a>COMPUTER SCIENCE</strong></p>
+                <ul>
+                    <li><span style="background-color: rgba(219, 182, 153, 0.393);"><b>Python Programming</b></span></li>
+
+                    <ul>
+                        <li><a href="">Introduction to Python</a></li>
+                        <li><a href="">Python Installation and Setup</a></li>
+                    </ul>
+
+                </ul>
+
+                <hr>
+
+
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <br>
+            <p>Crafted with ❤️ ✦ Inverted Truth © 2024</p>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const paragraphs = document.querySelectorAll('.fade-in');
+                let index = 0;
+
+                function fadeInNextParagraph() {
+                    if (index < paragraphs.length) {
+                        paragraphs[index].classList.add('visible');
+                        index++;
+                        setTimeout(fadeInNextParagraph, 100); // Adjust this value to change the delay between paragraphs
+                    }
+                }
+
+                fadeInNextParagraph();
+            });
+        </script>
+
+    </div>
+</body>
+
+</html>
