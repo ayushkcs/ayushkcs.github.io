@@ -4,8 +4,8 @@
 body {
     background-color: #FFFFFF;
     font-family: 'Lora', 'Open Sans', Helvetica, sans-serif;
-    font-size: 1.5rem;
-    color: #4A4A44;
+    font-size: 16px;
+    color: #282825;
     font-weight: 300;
     margin: 0;
     box-sizing: border-box;
@@ -67,7 +67,7 @@ body {
     text-decoration: none;
     text-transform: capitalize;
     padding: 3px 7px;
-    fill: #b6d2ee;
+    fill: #458cd2;
     border-radius: 5px;
     font-size: 1.3rem;
     transition: color .25s, fill .25s, opacity .25s;

@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bookshelf | Inverted Truth</title>
+    <meta name="description" content="I'm a Software engineer based in New Delhi, India.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Inverted Truth">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="invertedtruth.com">
+    <meta property="og:image" content="">
+
+    <link rel="icon" href="favicon.png" sizes="any">
+    <link rel="icon" href="favicon.png" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+
+    <style>
+        .badge {
+            display: inline-block;
+            background-color: rgba(114, 207, 14, 0.242);
+            color: #333;
+            padding: 5px 5px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 1em;
+        } 
+
+        .footer {
+            text-align: center; 
+            padding: 0px 0; /* Add some padding for spacing */
+            background-color: #FFFFFF; /* Example background color */
+            color: #333; /* Example text color */
+            font-size: 14px; /* Example font size */
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            background: linear-gradient(145deg, #007bff, #0056b3);
+            color: white;
+            font-size: 12px;
+            margin-left: 10px;
+            font-weight: lighter;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        .great {
+            color: #317cfe; 
+        }
+
+        .remarkable {
+            color: #ff1100; 
+        }
+
+        .year-section {
+            margin-bottom: 20px;
+        }
+
+        .year-section h2 {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333832;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="simple-container">
+
+        <div class="header">
+            <p class="back">
+                <a href="index.html"><img src="favicon.png" style="width: 80px;" id="profile"></a>
+            </p>
+
+            <p class="subpage fade-in">Bookshelf</p>
+            <br>
+        </div>
+
+        <div class="row personal-elem">
+
+            <!--Books-->
+
+            <span class="badge">Bookshelf</span>
+
+            <p>Here are books that I've read. All of them were good. Some were <span class="great">great</span>. A few were <span class="remarkable">remarkable</span>.</p>
+
+            <div class="year-section">
+                <h2>2024</h2>
+                <ul>
+                    <li>Phantoms in the Brain by V.S. Ramachandran</li>
+                    <li>The Precipice by Toby Ord</li>
+                    <li>A Brief History of Time by Stephen Hawking</li>
+                    <li>Destiny, Freedom and the Soul by Osho</li>
+                    <li>Four Thousand Weeks by Oliver Burkeman</li>
+                    <li>Mindfulness in the Modern World by Osho</li>
+                    <li>Man's Search for Meaning by Victor E. Frankl</li>
+                    <li>The Journey of Being Human by Osho</li>
+                    <li>Ratan Tata by A.K. Gandhi</li>
+                </ul>
+            </div>
+
+            <div class="year-section">
+                <h2>2023</h2>
+                <ul>
+                    <li>Yesterday I was the Moon by Noor Unnahar</li>
+                    <li>Sapiens by Yuval Noah Harari</li>
+                    <li>Homo Deus by Yuval Noah Harari</li>
+                    <li>21 Lessons for the 21st Century by Yuval Noah Harari</li>
+                    <li>The Art of War by Sun Tzu</li>
+                </ul>
+            </div>
+
+            <div class="year-section">
+                <h2>2022</h2>
+                <ul>
+                    <li>Tools of Titans by Tim Ferris</li>
+                </ul>
+            </div>
+
+            <div class="year-section">
+                <h2>2021</h2>
+                <ul>
+                    <li>Zero to One by Peter Thiel</li>
+                    <li>The Almanack of Naval Ravikant by Eric Jorgenson</li>
+                </ul>
+            </div>
+
+            <div class="year-section">
+                <h2>2020</h2>
+                <ul>
+                    <li>Originals by Adam Grant</li>
+                </ul>
+            </div>
+
+            <div class="year-section">
+                <h2>2019</h2>
+                <ul>
+                    <li>Steve Jobs by Karen Blumenthal</li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <!--Research Papers-->
+
+            <span class="badge">Papershelf</span>
+
+            <p>This section contains research papers that I've read.</p>
+
+            <ul>
+                <li><a href="https://dl.acm.org/doi/pdf/10.1145/253671.253741" target="_blank">The Past and Future History of the Internet</a><span class="tag">Internet</span></li>
+            </ul>
+            
+            <br>
+
+        </div>
+
+        <footer class="footer">
+            <br>
+            <p>Inverted Truth © 2024</p>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const paragraphs = document.querySelectorAll('.fade-in');
+                let index = 0;
+
+                function fadeInNextParagraph() {
+                    if (index < paragraphs.length) {
+                        paragraphs[index].classList.add('visible');
+                        index++;
+                        setTimeout(fadeInNextParagraph, 20); // Adjust this value to change the delay between paragraphs
+                    }
+                }
+
+                fadeInNextParagraph();
+            });
+        </script>
+</body>
+
+</html>

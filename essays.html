@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Essays | Inverted Truth</title>
+    <meta name="description" content="I'm a Software engineer based in New Delhi, India.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Inverted Truth">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="invertedtruth.com">
+    <meta property="og:image" content="">
+
+    <link rel="icon" href="favicon.png" sizes="any">
+    <link rel="icon" href="favicon.png" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+
+    <style>
+        .year-badge {
+            display: inline-block;
+            background-color: rgba(114, 207, 14, 0.242);
+            color: #333;
+            padding: 5px 5px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            text-align: center; 
+            padding: 0px 0; /* Add some padding for spacing */
+            background-color: #FFFFFF; /* Example background color */
+            color: #333; /* Example text color */
+            font-size: 14px; /* Example font size */
+        }
+
+        ul {
+        list-style-type:disc;
+        }
+
+        .essay-title {
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .essay-title::before {
+            content: '👉🏼';
+            margin-right: 10px;
+            font-size: 1.1em;
+            transition: transform 0.3s ease;
+        }
+        .essay-title.active::before {
+            transform: rotate(90deg);
+        }
+        .essay-content {
+            display: none;
+            margin-left: 33px;
+            margin-bottom: 20px;
+        }
+        .essay-content.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Add your site or application content here -->
+    <div class="simple-container">
+
+        <div class="header">
+            <p class="back">
+                <a href="index.html"><img src="favicon.png" style="width: 80px;" id="profile"></a>
+            </p>
+            <p class="subpage fade-in">Essays</p>
+            <br>
+
+            <div class="row personal-elem fade-in">
+                <p>I’ve recently dipped my toes into writing. Although it’s new to me, it’s really exciting.</p>
+
+                <span class="year-badge">2024</span>
+
+                <div class="essay-section">
+                    <div class="essay-title">Hello world</div>
+                    <div class="essay-content">
+                        <br>
+                        <p><i>27 July 2024</i></p>
+                        <hr>
+                        <p>No, this is not an essay about how I wrote my first computer program. Instead, this is a greeting essay for the beginning of a new journey - me being publicly active and sharing my thoughts and progress.</p>
+
+                        <p>Since my freshman year of college, I have always heard from people I admire to write more publicly but never had the courage to do it. I have always been a very private person with no social media accounts (not even Instagram) and stayed away from sharing my opinions publicly on any platform.</p>
+
+                        <p>But finally, this is the beginning of my final year of college, and I am getting started with it. A lot of people talk about building and learning in public to build a personal brand and to get opportunities. I don't know what will happen or if anything will happen at all. I don't have any expectations or goals to reach, nor am I chasing anything. I will write just for the sake of it.</p>
+                        
+                        <p>I am here to be myself and discover new ideas. Who knows, I might end up meeting some really cool people and making connections for life. Sometimes, I might say something cool and sometimes something really stupid, but never mind; the goal is just to be more authentic and be myself.</p>
+                            
+                        <p>And this is my first piece of writing online, being vocal about my thoughts. It's a really nice feeling to see my thoughts take shape on a white canvas. It's very satisfying.</p>
+
+                        <p>Hope you enjoyed this one! Until next time, stay curious, and keep building.🚀</p>
+
+                        <p>Cheers, Ayush!</p>
+                    </div>
+                </div>            
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <br>
+        <p>Inverted Truth © 2024</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+<script>
+
+    document.querySelectorAll('.essay-title').forEach(title => {
+        title.addEventListener('click', () => {
+            title.classList.toggle('active');
+            const content = title.nextElementSibling;
+            content.classList.toggle('active');
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const paragraphs = document.querySelectorAll('.fade-in');
+        let index = 0;
+
+
+        function fadeInNextParagraph() {
+            if (index < paragraphs.length) {
+                paragraphs[index].classList.add('visible');
+                index++;
+                setTimeout(fadeInNextParagraph, 100); // Adjust this value to change the delay between paragraphs
+            }
+        }
+
+        fadeInNextParagraph();
+    });
+</script>
+
+</body>
+
+</html>

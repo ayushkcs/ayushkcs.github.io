@@ -43,6 +43,11 @@
             color: #333; /* Example text color */
             font-size: 14px; /* Example font size */
         }
+
+        ul {
+        list-style-type:disc;
+        }
+        
     </style>
 </head>
 
@@ -57,7 +62,7 @@
             <br>
 
             <div class="row personal-elem fade-in">
-                <p>I enjoy taking notes on a wide range of topics that spark my curiosity. This page serves as an archive of my research notes, compiled from various sources.</p>
+                <p>I enjoy taking markdown notes on a wide range of topics that spark my curiosity. This page serves as an archive of all my notes.</p>
 
                 <span class="badge">Categories</span>
                 
@@ -73,13 +78,11 @@
 
                 <p><strong><a name="computer"></a>COMPUTER SCIENCE</strong></p>
                 <ul>
-                    <li><span style="background-color: rgba(219, 182, 153, 0.393);"><b>Python Programming</b></span></li>
-
-                    <ul>
-                        <li><a href="">Introduction to Python</a></li>
-                        <li><a href="">Python Installation and Setup</a></li>
-                    </ul>
-
+                    <li><a href="https://github.com/ayushkcs/Python-Programming">Python Programming</a></li>
+                    <li><a href="https://github.com/ayushkcs/Data-Structures-and-Algorithms">Data Structures and Algorithms</a></li>
+                    <li><a href="https://github.com/ayushkcs/Database-Management-System">Database Management System</a></li>
+                    <li><a href="https://github.com/ayushkcs/Operating-System">Operating System</a></li>
+                    <li><a href="https://github.com/ayushkcs/Computer-Network">Computer Network</a></li>
                 </ul>
 
                 <hr>
@@ -91,7 +94,7 @@
 
         <footer class="footer">
             <br>
-            <p>Crafted with ❤️ ✦ Inverted Truth © 2024</p>
+            <p>Inverted Truth © 2024</p>
         </footer>
 
         <script>
@@ -103,7 +106,7 @@
                     if (index < paragraphs.length) {
                         paragraphs[index].classList.add('visible');
                         index++;
-                        setTimeout(fadeInNextParagraph, 100); // Adjust this value to change the delay between paragraphs
+                        setTimeout(fadeInNextParagraph, 20); // Adjust this value to change the delay between paragraphs
                     }
                 }
 
