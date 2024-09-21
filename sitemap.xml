@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://ayushkcs.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>https://ayushkcs.github.io/blogs/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ayushkcs.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ayushkcs.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/musings/</loc>
+    <loc>https://ayushkcs.github.io/musings/</loc>
   </url><url>
-    <loc>http://localhost:1313/reads/</loc>
+    <loc>https://ayushkcs.github.io/reads/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ayushkcs.github.io/tags/</loc>
   </url>
 </urlset>

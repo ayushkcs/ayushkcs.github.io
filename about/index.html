@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +11,7 @@
 <meta name="keywords" content="" />
 
 
-<meta property="og:url" content="http://localhost:1313/about/">
+<meta property="og:url" content="https://ayushkcs.github.io/about/">
   <meta property="og:site_name" content="Ayush">
   <meta property="og:title" content="About">
   <meta property="og:description" content="Here’s my story—how I got here and what drives me.">
@@ -264,34 +264,7 @@
 </p>
 
   </main>
-  <footer><div class="upvote-emoji" style="display: flex; align-items: center;">
-    <span id="upvoteCount">0</span>
-    <span
-        style="cursor: pointer; font-size: 24px; margin-left: 8px;"
-        onclick="incrementUpvote()"
-    >
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
-        <polyline points="17 11 12 6 7 11"></polyline>
-        <polyline points="17 18 12 13 7 18"></polyline>
-    </svg>
-    </span>
-</div>
-
-<script>
-    
-    const pageKey = window.location.pathname; 
-    const countElement = document.getElementById('upvoteCount');
-    let currentCount = localStorage.getItem(pageKey) || 0;
-    countElement.innerText = currentCount;
-
-    function incrementUpvote() {
-        currentCount++;
-        countElement.innerText = currentCount;
-        localStorage.setItem(pageKey, currentCount);
-    }
-</script>
-
-<p>Made with ❤️</p></footer>
+  <footer><p>Made with ❤️</p></footer>
 
     
 </body>
