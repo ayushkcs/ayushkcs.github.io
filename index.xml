@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Ayush</title>
+    <link>https://ayushkcs.com/</link>
+    <description>Recent content in Home on Ayush</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://ayushkcs.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://ayushkcs.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ayushkcs.com/about/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;In this small corner of the web, let me share a bit of my story.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always been this curious kid, wandering about the complexity of this world, tinkering here and there. Now, I explore the world through words and code.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve always wanted to study the arts and humanities, but destiny had some other plans. Here I am, on the verge of graduating with a CS degree. Honestly, I didn&amp;rsquo;t like it initially, but I’ve grown to love it. I feel like a walking paradox; I&amp;rsquo;m just as into poetry and art as I am into science and tech.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reads</title>
+      <link>https://ayushkcs.com/reads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ayushkcs.com/reads/</guid>
+      <description>&lt;p&gt;Here are some books that I&amp;rsquo;ve read. All of them were good; some were great, and a few were remarkable.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bookshelf&#34;&gt;Bookshelf&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Phantoms in the Brain&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;V.S. Ramachandran&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Precipice&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Toby Ord&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;A Brief History of Time&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Stephen Hawking&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Destiny, Freedom and the Soul&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Osho&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Four Thousand Weeks&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Oliver Burkeman&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mindfulness in the Modern World&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Osho&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Man&amp;rsquo;s Search for Meaning&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Victor E. Frankl&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Journey of Being Human&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;Osho&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ratan Tata&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;A.K. Gandhi&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
