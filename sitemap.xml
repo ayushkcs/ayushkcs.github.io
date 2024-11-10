@@ -2,15 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ayushkcs.com/</loc>
+    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ayushkcs.com/musings/</loc>
+    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ayushkcs.com/musings/putting-myself-out-there/</loc>
+    <lastmod>2024-11-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ayushkcs.com/about/</loc>
   </url><url>
     <loc>https://ayushkcs.com/blogs/</loc>
   </url><url>
     <loc>https://ayushkcs.com/categories/</loc>
-  </url><url>
-    <loc>https://ayushkcs.com/</loc>
-  </url><url>
-    <loc>https://ayushkcs.com/musings/</loc>
   </url><url>
     <loc>https://ayushkcs.com/reads/</loc>
   </url><url>
