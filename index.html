@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.145.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inverted Truth</title>
+    
+    
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="3e9f4cc6-abb3-483e-a5fe-d059b927cff7"></script>
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+    
+    <link rel="stylesheet" href="/scss/main.min.4168df42912b27794c2b917ca94fedbfe30dd6d49bfa5cb23e368fa7362602df.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header"><nav class="main-nav">
+    <div class="header-wrapper">
+        <div class="logo-section">
+            <a href="/" class="site-title">Inverted Truth</a>
+        </div>
+        
+        
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 8h16M4 16h16"></path>
+            </svg>
+        </button>
+
+        
+        <div class="mobile-menu-overlay"></div>
+
+        <div class="nav-links">
+            <div class="mobile-menu-header">
+                <span class="mobile-menu-title">Menu</span>
+                <button class="mobile-menu-close" aria-label="Close menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <a href="/" class="nav-link active">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">Home</span>
+            </a>
+            <a href="/writings" class="nav-link ">
+                <span class="nav-icon">✍🏻</span>
+                <span class="nav-text">Writings</span>
+            </a>
+            <a href="/notes" class="nav-link ">
+                <span class="nav-icon">💡</span>
+                <span class="nav-text">Notes</span>
+            </a>
+            
+            <a href="/projects" class="nav-link ">
+                <span class="nav-icon">🛠️</span>
+                <span class="nav-text">Projects</span>
+            </a>
+            <a href="/about" class="nav-link ">
+                <span class="nav-icon">🧑🏻</span>
+                <span class="nav-text">About</span>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenuClose = document.querySelector('.mobile-menu-close');
+    const navLinks = document.querySelector('.nav-links');
+    const overlay = document.querySelector('.mobile-menu-overlay');
+    const body = document.body;
+
+    function closeMenu() {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+        overlay.classList.remove('active');
+        body.classList.remove('menu-open');
+    }
+
+    function toggleMenu() {
+        menuToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+        overlay.classList.toggle('active');
+        body.classList.toggle('menu-open');
+    }
+
+    menuToggle.addEventListener('click', toggleMenu);
+    mobileMenuClose.addEventListener('click', closeMenu);
+    
+    
+    overlay.addEventListener('click', closeMenu);
+
+    
+    document.addEventListener('click', (e) => {
+        if (navLinks.classList.contains('active') && 
+            !navLinks.contains(e.target) && 
+            !menuToggle.contains(e.target)) {
+            closeMenu();
+        }
+    });
+
+    
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach(link => {
+        link.addEventListener('click', closeMenu);
+    });
+
+    
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+            closeMenu();
+        }
+    });
+});
+</script>
+</header>
+        <main>
+<div class="hero-section">
+    
+    <div class="leaves-container">
+        <div class="leaf">🌿</div>
+        <div class="leaf">🍃</div>
+        <div class="leaf">☘️</div>
+        <div class="leaf">🌸</div>
+        <div class="leaf">🍂</div>
+        <div class="leaf">🌿</div>
+        <div class="leaf">🍃</div>
+        <div class="leaf">🪶</div>
+    </div>
+    <div class="hero-content">
+        <h1 class="hero-title">Welcome 👋</h1>
+        <p class="hero-subtitle">A little hypertext garden where I document my journey. 🌿</p>
+        <div class="hero-cta">
+            <a href="/writings" class="primary-button">Read My Blogs</a>
+            <a href="/about" class="secondary-button">Know Me Better</a>
+        </div>
+    </div>
+</div>
+
+
+<section class="recent-content">
+    <h2 class="section-title">Recent Writings</h2>
+    <div class="posts-grid">
+        
+        <a href="https://invertedtruth.com/writings/finally-i-hit-publish/" class="post-card-link">
+            <article class="post-card">
+                
+                <div class="post-content">
+                    <time class="post-date">May 07, 2025</time>
+                    <h3 class="post-title">Finally, I Hit Publish</h3>
+                    <div class="post-categories">
+                        
+                        <span class="category-tag">Personal</span>
+                        
+                    </div>
+                </div>
+            </article>
+        </a>
+        
+    </div>
+    <div class="section-footer">
+        <a href="/writings" class="view-all-button">View All Posts →</a>
+    </div>
+</section>
+
+
+
+
+
+        </main>
+        <footer class="site-footer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<div class="footer-content">
+    <p>Made with <span class="heart">❤️</span></p>
+    <div class="social-links">
+        <a href="https://x.com/ayushkcs" target="_blank" aria-label="Twitter" class="social-link">
+            <i class="fab fa-x-twitter"></i>
+        </a>
+        
+        <a href="mailto:kayush2k02@gmail.com" aria-label="Email" class="social-link email-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+</div></footer>
+    </div>
+</body>
+</html>

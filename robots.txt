@@ -1,0 +1,116 @@
+# robots.txt for https://invertedtruth.com
+# Last updated: 2025
+
+# Global rules for all crawlers
+User-agent: *
+Allow: /$
+Allow: /writings/
+Allow: /notes/
+Allow: /reads/
+Allow: /projects/
+Allow: /about/
+Allow: /sitemap.xml
+
+# Allow access to important assets
+Allow: /assets/images/
+Allow: /assets/fonts/
+Allow: /assets/icons/
+
+# Disallow development and utility files/directories
+Disallow: /404.html
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /page/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /assets/scss/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/vendor/
+Disallow: /assets/webfonts/
+Disallow: /assets/favicon/
+Disallow: /assets/manifest.json
+Disallow: /assets/robots.txt
+Disallow: /assets/site.webmanifest
+Disallow: /assets/browserconfig.xml
+Disallow: /assets/site.webmanifest
+Disallow: /assets/robots.txt
+Disallow: /assets/sitemap.xml
+Disallow: /assets/feed.xml
+Disallow: /assets/index.xml
+Disallow: /assets/index.json
+Disallow: /assets/index.html
+Disallow: /assets/404.html
+Disallow: /assets/500.html
+Disallow: /assets/offline.html
+Disallow: /assets/service-worker.js
+Disallow: /assets/sw.js
+Disallow: /assets/workbox-*.js
+Disallow: /assets/workbox-*.js.map
+Disallow: /assets/worker-*.js
+Disallow: /assets/worker-*.js.map
+Disallow: /assets/precache-manifest.*.js
+Disallow: /assets/precache-manifest.*.js.map
+Disallow: /assets/service-worker.js.map
+Disallow: /assets/sw.js.map
+
+# Block common bot patterns
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+# Allow specific bots with different rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 3
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 3
+
+# Block aggressive crawlers
+User-agent: AhrefsBot
+Disallow: /
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Disallow: /
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://invertedtruth.com/sitemap.xml
+
+# Host
+Host: https://invertedtruth.com 

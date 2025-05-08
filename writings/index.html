@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writings | Inverted Truth</title>
+    
+    
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="3e9f4cc6-abb3-483e-a5fe-d059b927cff7"></script>
+    
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+    
+    <link rel="stylesheet" href="/scss/main.min.4168df42912b27794c2b917ca94fedbfe30dd6d49bfa5cb23e368fa7362602df.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header"><nav class="main-nav">
+    <div class="header-wrapper">
+        <div class="logo-section">
+            <a href="/" class="site-title">Inverted Truth</a>
+        </div>
+        
+        
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 8h16M4 16h16"></path>
+            </svg>
+        </button>
+
+        
+        <div class="mobile-menu-overlay"></div>
+
+        <div class="nav-links">
+            <div class="mobile-menu-header">
+                <span class="mobile-menu-title">Menu</span>
+                <button class="mobile-menu-close" aria-label="Close menu">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <a href="/" class="nav-link ">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">Home</span>
+            </a>
+            <a href="/writings" class="nav-link active">
+                <span class="nav-icon">✍🏻</span>
+                <span class="nav-text">Writings</span>
+            </a>
+            <a href="/notes" class="nav-link ">
+                <span class="nav-icon">💡</span>
+                <span class="nav-text">Notes</span>
+            </a>
+            
+            <a href="/projects" class="nav-link ">
+                <span class="nav-icon">🛠️</span>
+                <span class="nav-text">Projects</span>
+            </a>
+            <a href="/about" class="nav-link ">
+                <span class="nav-icon">🧑🏻</span>
+                <span class="nav-text">About</span>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenuClose = document.querySelector('.mobile-menu-close');
+    const navLinks = document.querySelector('.nav-links');
+    const overlay = document.querySelector('.mobile-menu-overlay');
+    const body = document.body;
+
+    function closeMenu() {
+        menuToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+        overlay.classList.remove('active');
+        body.classList.remove('menu-open');
+    }
+
+    function toggleMenu() {
+        menuToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+        overlay.classList.toggle('active');
+        body.classList.toggle('menu-open');
+    }
+
+    menuToggle.addEventListener('click', toggleMenu);
+    mobileMenuClose.addEventListener('click', closeMenu);
+    
+    
+    overlay.addEventListener('click', closeMenu);
+
+    
+    document.addEventListener('click', (e) => {
+        if (navLinks.classList.contains('active') && 
+            !navLinks.contains(e.target) && 
+            !menuToggle.contains(e.target)) {
+            closeMenu();
+        }
+    });
+
+    
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach(link => {
+        link.addEventListener('click', closeMenu);
+    });
+
+    
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+            closeMenu();
+        }
+    });
+});
+</script>
+</header>
+        <main>
+<div class="page-wrapper">
+    <div class="writings-container">
+        <div class="writings-header">
+            <h1 class="writings-title">Writings</h1>
+            <p class="writings-subtitle">A collection of my thoughts and learnings.</p>
+        </div>
+
+        
+        <div class="year-section">
+            <button class="year-toggle" onclick="toggleYear('year-2025')" aria-expanded="false">
+                <div class="year-toggle-left">
+                    <div class="calendar-icon">
+                        <div class="calendar-top">2025</div>
+                        <div class="calendar-bottom">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <h2 class="year-heading">2025</h2>
+                </div>
+                <div class="year-toggle-right">
+                    <span class="post-count">1 Blog</span>
+                    <span class="toggle-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </span>
+                </div>
+            </button>
+            <div class="writings-list" id="year-2025" style="max-height: 0;">
+                
+                <a href="https://invertedtruth.com/writings/finally-i-hit-publish/" class="writing-card-link">
+                    <article class="writing-card">
+                        <div class="writing-meta">
+                            <time class="writing-date">May 07, 2025</time>
+                            <div class="reading-time">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span>2 min</span>
+                            </div>
+                        </div>
+                        <h3 class="writing-title">Finally, I Hit Publish</h3>
+                        <div class="writing-tags">
+                            
+                            <span class="tag">Personal</span>
+                            
+                        </div>
+                    </article>
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<script>
+function toggleYear(yearId) {
+    const yearContent = document.getElementById(yearId);
+    const button = yearContent.previousElementSibling;
+    const isExpanded = button.getAttribute('aria-expanded') === 'true';
+    
+    button.setAttribute('aria-expanded', !isExpanded);
+    
+    if (!isExpanded) {
+        
+        yearContent.style.maxHeight = 'none';
+        const height = yearContent.scrollHeight;
+        yearContent.style.maxHeight = '0';
+        
+        
+        yearContent.offsetHeight;
+        
+        
+        yearContent.style.maxHeight = height + 'px';
+    } else {
+        yearContent.style.maxHeight = '0';
+    }
+}
+</script>
+
+        </main>
+        <footer class="site-footer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<div class="footer-content">
+    <p>Made with <span class="heart">❤️</span></p>
+    <div class="social-links">
+        <a href="https://x.com/ayushkcs" target="_blank" aria-label="Twitter" class="social-link">
+            <i class="fab fa-x-twitter"></i>
+        </a>
+        
+        <a href="mailto:kayush2k02@gmail.com" aria-label="Email" class="social-link email-link">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+</div></footer>
+    </div>
+</body>
+</html>
