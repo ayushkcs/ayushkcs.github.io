@@ -2,16 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://invertedtruth.com/notes/oop/chapter-1/</loc>
+  </url><url>
     <loc>https://invertedtruth.com/notes/</loc>
+  </url><url>
+    <loc>https://invertedtruth.com/notes/oop/chapter-1/objects-and-classes/</loc>
+  </url><url>
+    <loc>https://invertedtruth.com/notes/oop/chapter-1/inheritance/</loc>
+  </url><url>
+    <loc>https://invertedtruth.com/categories/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/writings/everything-is-art/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/categories/reflections/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/writings/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/categories/mental-models/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/writings/what-if-everything-you-knew-was-built-on-sand/</loc>
+    <lastmod>2025-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/categories/philosophy/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/writings/the-search-itself-is-the-answer/</loc>
+    <lastmod>2025-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://invertedtruth.com/writings/finally-i-hit-publish/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://invertedtruth.com/writings/</loc>
+    <loc>https://invertedtruth.com/categories/personal/</loc>
     <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://invertedtruth.com/</loc>
+    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://invertedtruth.com/about/</loc>
   </url><url>
+    <loc>https://invertedtruth.com/notes/oop/</loc>
+  </url><url>
     <loc>https://invertedtruth.com/projects/</loc>
+  </url><url>
+    <loc>https://invertedtruth.com/tags/</loc>
   </url>
 </urlset>
